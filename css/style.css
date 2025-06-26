@@ -4,6 +4,7 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 a,
 a:hover {
@@ -72,23 +73,109 @@ ol {
   font-weight: 400;
   color: #ffff;
   line-height: 120%;
-  padding: 20px 0;
+  padding: 20px 10px;
 }
-.bannertextright p{
+.bannertextright p {
   font-size: 18px;
   font-weight: 400;
   color: #ffff;
   line-height: 160%;
   width: 480px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 /* Banner Part End */
 
-/* Header Part Start  */
-/* Header Part End */
+/* MOTIVATION Part Start  */
+#motivationPart {
+  padding: 60px 0;
+  background: #181818;
+}
+.mtextleft h3 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #ffff;
+  line-height: 150%;
+  padding-top: 105px;
+}
+.mlogoright img {
+  margin-left: 100px;
+}
+.moItem h4 {
+  font-size: 24px;
+  font-weight: 900;
+  color: #ffff;
+  line-height: 150%;
+  text-transform: uppercase;
+  padding: 15px 0;
+  width: 194px;
+}
+.moItem p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 150%;
+  width: 269px;
+}
+.mitemflex {
+  display: flex;
+  justify-content: space-between;
+}
+.motext{
+  padding-left: 50px;
+}
+/* MOTIVATION Part End */
 
-/* Header Part Start  */
-/* Header Part End */
+/* Service Part Start  */
+#servicePart{
+  padding: 90px 0;
+  background: #000;
+}
+.serviceText h3{
+  font-size: 48px;
+  font-weight: 900;
+  color: #ffff;
+  line-height: 150%;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+.serviceText p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 160%;
+  width: 966px;
+  margin: 0 auto;
+  
+}
+.serviceCard{
+  width: 427px;
+  height: 361px;
+  background: #d9d9d9;
+  padding: 10px 0;
+  border-radius: 10px;
+  transition: .4s;
+}
+.serviceCard h4{
+  padding: 20px;
+     font-size: 24px;
+  font-weight: 700;
+  color: #ffff;
+  line-height: 160%;
+}
+.serviceCard p{
+  padding-top: 220px;
+  padding-left: 20px;
+    font-size: 24px;
+  font-weight: 700;
+  color: #ffff;
+  line-height: 160%;
+}
+.serviceCard:hover{
+  background: #fdf1f1;
+  color: black;
+}
+/* Service Part End */
 
 /* Header Part Start  */
 /* Header Part End */
