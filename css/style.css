@@ -1,0 +1,109 @@
+/* All Common css Start  */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+/* All Common css End */
+
+/* Header Part Start  */
+.navbar {
+  background: #d9d9d9;
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 120%;
+  margin: 0 20px;
+}
+/* Header Part End */
+
+/* Banner Part Start  */
+#bannerPart {
+  padding: 60px 0;
+  background: #d9d9d9;
+}
+.bannertextleft h1 {
+  color: #ffff;
+  font-size: 120px;
+  font-weight: 800;
+  padding-top: 55px;
+  padding-bottom: 20px;
+  line-height: 120%;
+}
+.bannertextleft h4 {
+  color: #ffff;
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 260px;
+  line-height: 120%;
+}
+.bannertextleft img {
+  padding-right: 20px;
+}
+.bannertextright {
+  padding-top: 470px;
+  color: #ffff;
+}
+.bannertextright h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 120%;
+  padding: 20px 0;
+}
+.bannertextright p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 160%;
+  width: 480px;
+  margin: 0 auto;
+}
+/* Banner Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
