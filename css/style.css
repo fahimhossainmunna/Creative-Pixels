@@ -121,17 +121,17 @@ ol {
   display: flex;
   justify-content: space-between;
 }
-.motext{
+.motext {
   padding-left: 50px;
 }
 /* MOTIVATION Part End */
 
 /* Service Part Start  */
-#servicePart{
+#servicePart {
   padding: 90px 0;
   background: #000;
 }
-.serviceText h3{
+.serviceText h3 {
   font-size: 48px;
   font-weight: 900;
   color: #ffff;
@@ -139,46 +139,71 @@ ol {
   text-transform: uppercase;
   padding: 15px 0;
 }
-.serviceText p{
+.serviceText p {
   font-size: 18px;
   font-weight: 400;
   color: #ffff;
   line-height: 160%;
   width: 966px;
   margin: 0 auto;
-  
 }
-.serviceCard{
+.serviceCard {
   width: 427px;
   height: 361px;
   background: #d9d9d9;
   padding: 10px 0;
   border-radius: 10px;
-  transition: .4s;
+  transition: 0.4s;
 }
-.serviceCard h4{
+.serviceCard h4 {
   padding: 20px;
-     font-size: 24px;
+  font-size: 24px;
   font-weight: 700;
   color: #ffff;
   line-height: 160%;
 }
-.serviceCard p{
+.serviceCard p {
   padding-top: 220px;
   padding-left: 20px;
-    font-size: 24px;
+  font-size: 24px;
   font-weight: 700;
   color: #ffff;
   line-height: 160%;
 }
-.serviceCard:hover{
+.serviceCard:hover {
   background: #fdf1f1;
   color: black;
 }
 /* Service Part End */
 
-/* Header Part Start  */
-/* Header Part End */
+/* PORTFOLIO Part Start  */
+#protfolioPart {
+  padding: 90px 0;
+  background: #181818;
+}
+.pTextone h5{
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffff;
+  line-height: 160%;
+  padding: 0;
+}
+.pTexttwo h3{
+  font-size: 48px;
+  font-weight: 900;
+  color: #ffff;
+  line-height: 150%;
+  width: 693px;
+  
+}
+.pTextthree h4{
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffff;
+  line-height: 160%;
+  padding: 0;
+}
+/* PORTFOLIO Part End */
 
 /* Header Part Start  */
 /* Header Part End */
