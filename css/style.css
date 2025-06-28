@@ -35,7 +35,7 @@ ol {
 .nav-link {
   font-size: 18px;
   font-weight: 400;
-  color: #ffff;
+  color: #5a5a5a;
   line-height: 120%;
   margin: 0 20px;
 }
@@ -47,7 +47,7 @@ ol {
   background: #d9d9d9;
 }
 .bannertextleft h1 {
-  color: #ffff;
+  color: #5a5a5a;
   font-size: 120px;
   font-weight: 800;
   padding-top: 55px;
@@ -55,7 +55,7 @@ ol {
   line-height: 120%;
 }
 .bannertextleft h4 {
-  color: #ffff;
+  color: #5a5a5a;
   font-size: 32px;
   font-weight: 700;
   padding-bottom: 260px;
@@ -66,19 +66,19 @@ ol {
 }
 .bannertextright {
   padding-top: 470px;
-  color: #ffff;
+  color: #5a5a5a;
 }
 .bannertextright h4 {
   font-size: 18px;
   font-weight: 400;
-  color: #ffff;
+  color: #5a5a5a;
   line-height: 120%;
   padding: 20px 10px;
 }
 .bannertextright p {
   font-size: 18px;
   font-weight: 400;
-  color: #ffff;
+  color: #5a5a5a;
   line-height: 160%;
   width: 480px;
   margin: 0 auto;
@@ -181,35 +181,168 @@ ol {
   padding: 90px 0;
   background: #181818;
 }
-.pTextone h5{
+.pTextone h5 {
   font-size: 18px;
   font-weight: 900;
   color: #ffff;
   line-height: 160%;
   padding: 0;
 }
-.pTexttwo h3{
+.pTexttwo h3 {
   font-size: 48px;
   font-weight: 900;
   color: #ffff;
   line-height: 150%;
   width: 693px;
-  
 }
-.pTextthree h4{
+.pTextthree h4 {
   font-size: 18px;
   font-weight: 900;
   color: #ffff;
   line-height: 160%;
   padding: 0;
 }
+.proTitle h3 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffff;
+  line-height: 150%;
+  width: 287px;
+  padding-top: 45px;
+  padding-bottom: 15px;
+}
+.proTitle p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 160%;
+  width: 300px;
+}
+.protow h3 {
+  padding-top: 0;
+}
+.protow p {
+  padding-bottom: 55px;
+}
 /* PORTFOLIO Part End */
 
-/* Header Part Start  */
-/* Header Part End */
+/* Contact Part Start  */
+#contactPart {
+  padding: 90px 0;
+  background: #000;
+}
+.contactCard {
+  background: url(../images/c1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  border-radius: 10px;
+}
+.contactCard h3 {
+  font-size: 72px;
+  font-weight: 900;
+  color: #ffff;
+  line-height: 150%;
+  width: 1017px;
+  margin: 0 auto;
+  padding: 0px 70px;
+}
+.mCB {
+  padding: 15px 25px;
+  background: #1944d3;
+  color: #ffffff;
+  border-radius: 10px;
+  transition: 0.4s;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.mCB:hover {
+  background: transparent;
+  border: 1px solid black;
+  color: #181818;
+}
+/* Contact Part End */
 
-/* Header Part Start  */
-/* Header Part End */
+/* Footer Part Start  */
+#footerPart {
+  padding:  100px 100px 0 100px;
+  background: #222222;
+}
+.footerpOne p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 150%;
+  width: 500px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.email {
+  background: #222222;
+  border: 1px solid white;
+  padding: 12px 30px;
+  max-width: 377px;
+  margin: 10px 0;
+}
+.footerEmail a {
+  padding: 12px 15px;
+  color: #fff;
+  border: 1px solid white;
+  margin-left: 5px;
+}
+.footerPtow p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 150%;
+  width: 500px;
+  padding-top: 24px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menuOne ul li a {
+  color: #fff;
+  padding: 10px 0;
+}
+.menuright h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 150%;
+  padding-left: 35px;
+}
+.socialmedia ul li a{
+  color: #fdf1f1;
+  padding: 10px 0;
+}
+.socialmedia ul li a i{
+  color: #fdf1f1;
+  padding: 0 5px;
+}
+.border-bottom{
+  border-bottom: 1px solid white;
+  padding: 30px 0;
+}
+.fLeft h3{
+    font-size: 14px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 150%;
+  padding-top: 50px;
+}
+.frightText a{
+    font-size: 14px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 150%;
+  padding: 50px 10px;
+}
+/* Footer Part End */
 
 /* Header Part Start  */
 /* Header Part End */
